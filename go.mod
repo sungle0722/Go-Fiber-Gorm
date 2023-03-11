@@ -1,4 +1,4 @@
-module github.com/kronborg6/GoFiberAndGorm
+module github.com/kronborg6/Go-Fiber-Gorm
 
 go 1.19
 

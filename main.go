@@ -6,8 +6,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
-	"github.com/kronborg6/GoFiberAndGorm/api/db"
-	"github.com/kronborg6/GoFiberAndGorm/api/models"
+	"github.com/kronborg6/Go-Fiber-Gorm/api/db"
+	"github.com/kronborg6/Go-Fiber-Gorm/api/models"
 )
 
 func getPort() string {
