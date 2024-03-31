@@ -26,7 +26,7 @@ func main() {
 	models.Setup(db)
 
 	app.Get("/", func(c *fiber.Ctx) error {
-		return c.SendString("Hej")
+		return c.SendString("Hej - Watashi!")
 	})
 
 	log.Fatal(app.Listen(getPort()))
